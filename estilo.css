@@ -1,0 +1,125 @@
+@font-face {
+    font-family: Montserrat;
+    src: url(Montserrat-VariableFont_wght.ttf);
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Montserrat, sans-serif;
+    color: #393A62;
+}
+.selecionado {
+    font-weight: bolder;
+    color: black;
+}
+html,body {
+    height: 110%;
+    background-color: #E8E8FD;
+}
+.laranja {
+    position: absolute;
+    left: 5%;
+    top: 5%;
+    width: 15%;
+    height: 100%;
+    background-color: #EA4C3C;
+    border-radius: 50px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, .1);
+}
+.pagina {
+    position: absolute;
+    width: 85%;
+    height: 90%;
+    border-radius: 50px;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.5);
+}
+.barra {
+    padding-top: 25px;
+    position: relative;
+    background-color: #F1F1FB;
+    width: 25%;
+    height: 100%;
+    border-radius: 50px 0 0 50px;
+    padding-left: 25px;
+    float: left;
+    margin-right: 25px;
+}
+.cobrancas {
+    padding-top: 25px;
+}
+.logo {
+    padding-bottom: 75px;
+}
+.logo img {
+    float: left;
+}
+.logo p {
+    float: left;
+}
+ul {
+    list-style: none;
+}
+li {
+    margin-bottom: 20px;
+}
+li.selecionado {
+    border-left: 5px solid #EA4C3C;
+    border-radius: 0px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+}
+h1 {
+    margin-bottom: 50px;
+}
+p {
+    font-size: small;
+}
+.plano {
+    position: absolute;
+    left: 75%;
+    top: 15%;
+    background-color: #EA4C3C;
+    padding: 35px;
+    border-radius: 15px;
+}
+button {
+    padding: 10px;
+    background-color: transparent;
+    border-radius: 5px;
+    border: 1px black solid;
+}
+.plano button {
+    border: 1px white solid;
+}
+.plano h3,.plano h2,.plano p,.plano button {
+    color: white;
+}
+table {
+    border-spacing: 20px;
+    border-collapse: separate;
+}
+tr.selecionado {
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);
+}
+a {
+    color: #EA4C3C;
+}
+.pm {
+    padding: 10px;
+    border: 1px solid #393A62;
+    border-radius: 5px;
+}
+.metodo img, .metodo p {
+    float: left;
+}
+.metodo p {
+    padding-top: 25px;
+    padding-left: 15px;
+    font-weight: bolder;
+    font-size: medium;
+}
